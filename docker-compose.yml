@@ -11,6 +11,8 @@ services:
       EULA: "TRUE"
       GAMEMODE: survival
       DIFFICULTY: hard
+    stdin_open: true
+    tty: true
 
     restart: always
 
